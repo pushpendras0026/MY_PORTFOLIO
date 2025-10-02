@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pushpendra Singh — Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#7c3aed; --muted:#94a3b8; --glass: rgba(255,255,255,0.03);
+      --maxw:1000px; --radius:12px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Arial;background:linear-gradient(180deg,var(--bg),#071226);color:#e6eef8}
+    a{color:var(--accent);text-decoration:none}
+    .container{max-width:var(--maxw);margin:32px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,#10243a,#0b2540);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);font-size:18px}
+    h1{margin:0;font-size:26px;letter-spacing:0.6px}
+    .sub{color:var(--muted);margin-top:6px;font-size:14px}
+    .contact{margin-left:auto;text-align:right}
+    .contact a{display:inline-block;margin-left:10px;font-size:14px;color:var(--muted)}
+    nav{margin-top:18px;border-top:1px solid rgba(255,255,255,0.03);padding-top:18px;display:flex;gap:12px;flex-wrap:wrap}
+    nav a{background:var(--glass);padding:8px 12px;border-radius:10px;font-size:13px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:22px;margin-top:20px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.005));padding:16px;border-radius:10px;border:1px solid rgba(255,255,255,0.02)}
+    .section-title{font-size:14px;color:var(--muted);margin-bottom:8px}
+    ul{margin:0;padding-left:18px}
+    .project{margin-bottom:12px}
+    .skill-list{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:rgba(255,255,255,0.02);padding:6px 8px;border-radius:8px;font-size:13px;color:var(--muted)}
+    .right .card{position:sticky;top:28px}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    .pill{display:inline-block;background:rgba(255,255,255,0.02);padding:6px 10px;border-radius:999px;font-weight:600}
+    @media (max-width:900px){.grid{grid-template-columns:1fr;}.contact{text-align:left;margin-left:0}}
+    /* Print friendly */
+    @media print{body{background:white;color:black} .container{box-shadow:none;border-radius:0}}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="avatar">PS</div>
+      <div>
+        <h1>PUSHPENDRA SINGH <span style="font-weight:500;color:var(--muted);font-size:14px">— B.Tech, Data Science & AI</span></h1>
+        <div class="sub">Indian Institute of Technology, Guwahati • Roll: 240150026</div>
+        <div style="margin-top:8px;color:var(--muted)">Competitive Programming: CF 1342 • Based in India</div>
+      </div>
+      <div class="contact">
+        <div><a href="tel:+917351816883">+91-7351816883</a></div>
+        <div style="margin-top:6px"><a href="mailto:pushpendras0026@iitg.ac.in">pushpendras0026@iitg.ac.in</a> · <a href="mailto:singhpush7351@gmail.com">singhpush7351@gmail.com</a></div>
+        <div style="margin-top:8px"><a href="https://github.com/unique0026" target="_blank">GitHub</a> · <a href="https://www.linkedin.com/in/pushpendra-singh-16b091261" target="_blank">LinkedIn</a></div>
+      </div>
+    </header>
+
+    <nav>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#courses">Coursework</a>
+      <a href="#positions">Positions</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="grid">
+      <div>
+        <section id="education" class="card">
+          <div class="section-title">EDUCATION</div>
+          <h3 style="margin:6px 0 8px 0">B.Tech — Data Science & AI Engineering</h3>
+          <div style="color:var(--muted);font-size:14px">Indian Institute of Technology, Guwahati • 2024–Present</div>
+          <div style="margin-top:10px">
+            <table style="width:100%;border-collapse:collapse;color:inherit;font-size:14px">
+              <tr><td style="padding:6px 0;font-weight:600">B.Tech. Major</td><td style="text-align:right">8.5 (Current)</td></tr>
+              <tr><td style="padding:6px 0;font-weight:600">Senior Secondary (XII)</td><td style="text-align:right">UP Board — 90.0%</td></tr>
+              <tr><td style="padding:6px 0;font-weight:600">Secondary (X)</td><td style="text-align:right">CBSE — 96.4%</td></tr>
+            </table>
+          </div>
+        </section>
+
+        <section id="projects" class="card" style="margin-top:16px">
+          <div class="section-title">PROJECTS</div>
+
+          <div class="project">
+            <h4 style="margin:6px 0">Bayesian Neural Network (From Scratch)</h4>
+            <div style="color:var(--muted);font-size:13px;margin-bottom:6px">Personal Project • <a href="https://github.com/pushpendras0026/Bayesian_neural_network_from_scratch_python" target="_blank">Code</a></div>
+            <ul>
+              <li>Implemented a Bayesian Neural Network from scratch in Python without using DL frameworks.</li>
+              <li>Modeled probabilistic weight distributions to capture epistemic uncertainty.</li>
+              <li>Compared predictive uncertainty vs deterministic models on synthetic/real datasets.</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h4 style="margin:6px 0">Martian Core Analysis (NASA InSight Data)</h4>
+            <div style="color:var(--muted);font-size:13px;margin-bottom:6px"><a href="https://github.com/pushpendras0026/Martian_core_analysis" target="_blank">Code</a></div>
+            <ul>
+              <li>Processed seismic/geophysical data from NASA InSight to estimate Mars’ internal structure.</li>
+              <li>Applied interpolation, outlier detection and statistical modeling to infer core density and layering.</li>
+              <li>Visualized results and compared them with published planetary geophysics studies.</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h4 style="margin:6px 0">CCTV Object Detection &amp; Re-identification</h4>
+            <div style="color:var(--muted);font-size:13px;margin-bottom:6px"><a href="https://github.com/furzemann/cctv_proj" target="_blank">Code</a></div>
+            <ul>
+              <li>Built CNN-based pipelines for real-time person detection and re-identification under occlusion.</li>
+              <li>Designed preprocessing (frame extraction, augmentation) for noisy CCTV footage.</li>
+              <li>Optimized embeddings & similarity metrics to improve re-id accuracy while keeping latency low.</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h4 style="margin:6px 0">ISRO Hackathon: Deep Learning for Earth Observations</h4>
+            <div style="color:var(--muted);font-size:13px;margin-bottom:6px"><a href="https://github.com/pushpendras0026/ISRO_HACKATHON" target="_blank">Code</a></div>
+            <ul>
+              <li>Tackled class imbalance in satellite imagery segmentation tasks.</li>
+              <li>Designed and implemented a custom loss function to improve minority-class segmentation.</li>
+              <li>Modified and fine-tuned SegFormer to increase robustness and segmentation quality.</li>
+            </ul>
+          </div>
+
+        </section>
+
+        <section id="achievements" class="card" style="margin-top:16px">
+          <div class="section-title">ACHIEVEMENTS</div>
+          <ul>
+            <li><strong>AIR 2727</strong> in JEE Advanced (Top 1.1% among ~250,000 candidates)</li>
+            <li><strong>Reliance Foundation Scholarship</strong> — Award for academic excellence in STEM</li>
+          </ul>
+        </section>
+
+      </div>
+
+      <aside class="right">
+        <div class="card">
+          <div class="section-title">TECHNICAL SKILLS</div>
+          <div class="skill-list" style="margin-top:8px">
+            <span class="skill">Python</span>
+            <span class="skill">C++</span>
+            <span class="skill">C</span>
+            <span class="skill">R</span>
+            <span class="skill">PyTorch</span>
+            <span class="skill">NumPy</span>
+            <span class="skill">Pandas</span>
+            <span class="skill">Scikit-learn</span>
+            <span class="skill">Matplotlib</span>
+            <span class="skill">Seaborn</span>
+            <span class="skill">SQL</span>
+          </div>
+
+          <div style="margin-top:14px">
+            <div class="section-title">COURSEWORK</div>
+            <ul style="margin-top:6px;color:var(--muted);font-size:14px">
+              <li>Linear Algebra, Probability &amp; Random Processes, Real Analysis</li>
+              <li>Machine Learning, Deep Learning, AWS ML Specialization</li>
+              <li>Digital Systems, Signal Processing</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:10px">
+            <div class="section-title">POSITIONS</div>
+            <ul style="margin-top:6px;color:var(--muted);font-size:14px">
+              <li>Associate, Coding Club (ML Module), IIT Guwahati — 2024–Present</li>
+              <li>Associate, IITG.ai Club — 2024–Present</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:12px">
+            <div class="section-title">CONTACT</div>
+            <div style="color:var(--muted);font-size:14px">Email: <a href="mailto:pushpendras0026@iitg.ac.in">pushpendras0026@iitg.ac.in</a></div>
+            <div style="margin-top:6px;color:var(--muted);font-size:14px">GitHub: <a href="https://github.com/unique0026">unique0026</a></div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:16px;text-align:center">
+          <div class="section-title">DOWNLOAD</div>
+          <p style="color:var(--muted);font-size:14px;margin-bottom:12px">Download a printable version of this CV or view code repositories.</p>
+          <div style="display:flex;gap:8px;justify-content:center">
+            <a class="pill" href="https://github.com/unique0026" target="_blank">View GitHub</a>
+            <a class="pill" href="#" onclick="window.print();return false;">Print / Save PDF</a>
+          </div>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      Built with ❤️ · Last updated: 2024
+    </footer>
+
+  </main>
+
+  <script>
+    // Smooth scroll for nav links
+    document.querySelectorAll('nav a').forEach(a=>{
+      a.addEventListener('click', e=>{
+        e.preventDefault();
+        document.querySelector(a.getAttribute('href')).scrollIntoView({behavior:'smooth',block:'start'});
+      });
+    });
+  </script>
+</body>
+</html>
